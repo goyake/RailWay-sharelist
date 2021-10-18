@@ -1,0 +1,6 @@
+services:
+  sharelist:
+    build: .
+    shm_size: 2.6gb
+    ports:
+      - "33001:33001"
